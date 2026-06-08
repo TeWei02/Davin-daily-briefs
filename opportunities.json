@@ -1,0 +1,41 @@
+{
+  "updated": "2026-06-09T00:00:00Z",
+  "opportunities": [
+    {
+      "date": "2026-06-09",
+      "domain": "ai",
+      "title": "Anthropic releases Model Context Protocol v2 with agent orchestration",
+      "url": "https://www.anthropic.com/news/model-context-protocol"
+    },
+    {
+      "date": "2026-06-08",
+      "domain": "crypto",
+      "title": "EigenLayer mainnet restaking goes live with $2.1B TVL",
+      "url": "https://www.eigenlayer.xyz"
+    },
+    {
+      "date": "2026-06-08",
+      "domain": "web3",
+      "title": "Optimism RetroPGF Round 5 opens applications — $30M pool",
+      "url": "https://optimism.io"
+    },
+    {
+      "date": "2026-06-07",
+      "domain": "tech",
+      "title": "Apple WWDC 2026: on-device LLM framework for all Apple Silicon",
+      "url": "https://developer.apple.com/wwdc26/"
+    },
+    {
+      "date": "2026-06-07",
+      "domain": "business",
+      "title": "AI coding tools market crosses $4B ARR, GitHub Copilot leads",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "date": "2026-06-06",
+      "domain": "ai",
+      "title": "Open source voice cloning reaches production quality — latency under 300ms",
+      "url": "https://github.com/fishaudio/fish-speech"
+    }
+  ]
+}
