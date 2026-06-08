@@ -385,7 +385,7 @@ function renderCommunity() {
 // ============================================================
 const RADAR_CACHE_KEY = 'davin_radar_cache';
 const RADAR_CACHE_TTL = 15 * 60 * 1000; // 15 min
-const CDN_BASE = 'https://cdn.jsdelivr.net/gh/TeWei02/marvis-daily-briefs@main';
+const CDN_BASE = 'https://cdn.jsdelivr.net/gh/TeWei02/Davin-daily-briefs@main';
 
 function formatDate(d) {
   if (!d) return '';
@@ -430,7 +430,7 @@ async function loadRadar() {
 
   // Fallback: fetch from GitHub tree for latest daily brief
   try {
-    const treeRes = await fetch('https://api.github.com/repos/TeWei02/marvis-daily-briefs/git/trees/main?recursive=1');
+    const treeRes = await fetch('https://api.github.com/repos/TeWei02/Davin-daily-briefs/git/trees/main?recursive=1');
     if (treeRes.ok) {
       const tree = await treeRes.json();
       const mdFiles = (tree.tree || []).filter(f => f.path.match(/^\d{4}\/\d{2}\/marvis-daily.*\.md$/)).sort((a,b) => b.path.localeCompare(a.path));
@@ -486,7 +486,7 @@ async function subscribe() {
     const res = await fetch('https://formsubmit.co/ajax/tewei.ko0418@gmail.com', {
       method: 'POST',
       headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({email, _subject:'Davin - New Subscriber', _next:'https://tewei02.github.io/marvis-daily-briefs/'})
+      body: JSON.stringify({email, _subject:'Davin - New Subscriber', _next:'https://tewei02.github.io/Davin-daily-briefs/'})
     });
     const data = await res.json();
     

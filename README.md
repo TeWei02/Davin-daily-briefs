@@ -1,2 +1,2 @@
-# marvis-daily-briefs
-Marvis Daily AI Briefs
+# Davin-daily-briefs
+Davin - Autonomous AI Operator
