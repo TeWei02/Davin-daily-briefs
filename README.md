@@ -1,6 +1,6 @@
 # Davin Daily Briefs
 
-每日自動產出的技術與商業內容彙整，由 Davin Engine 驅動。
+每日整理的技術與商業內容彙整。
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/TeWei02/Davin-daily-briefs)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TeWei02/Davin-daily-briefs)
