@@ -13,7 +13,7 @@
 ## 瀏覽
 
 - 直接閱讀目錄下的 Markdown 檔案
-- 或透過 [GitHub Pages](https://tewei02.github.io/Davin-daily-briefs/) 檢視
+- 或透過 [GitHub Pages](https://tewei02.github.io/Davin-daily-briefs/) 線上瀏覽
 
 ## License
 
