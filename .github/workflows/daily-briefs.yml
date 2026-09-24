@@ -1,0 +1,30 @@
+name: Daily Briefs
+
+on:
+  schedule:
+    - cron: '7 1 * * *'
+    - cron: '7 5 * * *'
+    - cron: '7 9 * * *'
+    - cron: '7 13 * * *'
+    - cron: '7 15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-briefs
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate daily briefs
+        env:
+          TZ: Asia/Taipei
+        run: python3 .github/scripts/generate_briefs.py
