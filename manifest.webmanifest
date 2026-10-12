@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "技術與商業摘要 — TeWei02",
+  "short_name": "每日摘要",
+  "description": "技術與商業領域值得留意的資訊，依日期歸檔。看過的可離線閱讀。",
+  "lang": "zh-Hant",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#111827",
+  "categories": ["news", "education"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
