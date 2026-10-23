@@ -1,5 +1,7 @@
 # Davin Daily Briefs
 
+**Language:** [![中文](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E4%B8%AD%E6%96%87%E7%89%88-blue?style=flat-square)](README.md) [![English](https://img.shields.io/badge/English-English-blue?style=flat-square)](README.en.md)
+
 每日整理的技術與商業內容彙整。
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/TeWei02/Davin-daily-briefs)
